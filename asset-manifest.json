@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/izzit-streaming/static/css/main.073c9b0a.css",
-    "main.js": "/izzit-streaming/static/js/main.de56a87e.js",
+    "main.css": "/izzit-streaming/static/css/main.88c815f4.css",
+    "main.js": "/izzit-streaming/static/js/main.468c5c49.js",
     "static/js/787.2fad7524.chunk.js": "/izzit-streaming/static/js/787.2fad7524.chunk.js",
+    "static/media/notfound2.jpg": "/izzit-streaming/static/media/notfound2.4ee10240fbe65d904f2d.jpg",
+    "static/media/netflix.png": "/izzit-streaming/static/media/netflix.774e8c1632ac9433608b.png",
     "static/media/logo.svg": "/izzit-streaming/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/izzit-streaming/index.html",
-    "main.073c9b0a.css.map": "/izzit-streaming/static/css/main.073c9b0a.css.map",
-    "main.de56a87e.js.map": "/izzit-streaming/static/js/main.de56a87e.js.map",
+    "main.88c815f4.css.map": "/izzit-streaming/static/css/main.88c815f4.css.map",
+    "main.468c5c49.js.map": "/izzit-streaming/static/js/main.468c5c49.js.map",
     "787.2fad7524.chunk.js.map": "/izzit-streaming/static/js/787.2fad7524.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.de56a87e.js"
+    "static/css/main.88c815f4.css",
+    "static/js/main.468c5c49.js"
   ]
 }
