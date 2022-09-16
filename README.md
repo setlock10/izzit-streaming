@@ -1,6 +1,10 @@
 # My Stuff
 npm run deploy
 
+npm install -–save react-router-dom@5.3.0
+
+npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

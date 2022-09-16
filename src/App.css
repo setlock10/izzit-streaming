@@ -1,6 +1,171 @@
 .App {
   text-align: center;
+  font: inherit;
+  font-weight: 600;
+  color: inherit;
+  
 }
+
+form{
+  font: inherit;
+  font-weight: 600;
+  color: inherit;
+
+}
+
+:root {
+  --turquoise: #00efe1;
+  --mid-turquoise: #14d5c9;
+  --dark-turquoise: #00333f;
+  --black: #030416;
+  --white: #f1f1f1;
+  --grey: #d6e2e7;
+  --dark-grey: #7f8a8e;
+  --yellow: #f9c51a;
+  --orange: #ff5c00;
+  --fuschia: #e80352;
+  --blue: #338fff;
+  --blue-dark: #145cb3;
+  --purple: #cda2ff;
+  --green: #00ef7c;
+  --color: var(--white);
+  --background: var(--white);
+  --primary: var(--turquoise);
+}
+
+/* buttons */
+button, .button {
+  appearance: auto;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  font: inherit;
+  font-weight: 600;
+  color: inherit;
+  cursor: pointer;
+  color:  var(--dark-turquoise);
+  background-color: var(--background);
+  border: 2px solid var(--dark-turquoise);
+  transition: background-color 0.2s;
+}
+
+button:disabled{
+
+  color:rgb(151, 151, 151);
+}
+
+
+.movieCardImage{
+  height: 250px;
+   width:250px; 
+  object-fit: cover;
+}
+
+input{
+  height: 40px;
+}
+
+.logoCardImage{
+  height: 75px;
+
+   /* width:50px; 
+  object-fit: cover; */
+}
+ul{
+  width: 65%;
+  margin-left:25%;
+  /* left: 250px;
+  position: absolute; */
+  text-align: left;
+
+}
+
+.alertButton{
+  height:75px;
+  font-size: 14px;
+}
+
+.movieTile {
+  display: inline;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  float: left;
+  margin: 2%;
+  padding: 1%;
+  outline: rgb(120, 105, 18) solid thick;
+  transition: 0.75s;
+  opacity: 1;
+  background-color:black;
+  color:azure;
+  height:500px
+  
+}
+
+.alertItem {
+  width:25%;
+  display: inline-block;
+  font-size: 14px;
+  font-style: normal;
+  font-family:arial;
+ 
+}
+h2 {
+  font-size: 20px;
+}
+
+.alertCard {
+    display: inline-block;
+   
+  
+  
+  width: 75%;
+  /* background-position: center 90%;
+  float: left;
+  margin: 2%; */
+  /* padding: 1%; */
+  outline: #3B0B0B solid thin;
+  /* transition: 0.75s;
+  opacity: 1; */
+  background-color: azure;
+}
+
+
+
+.movieTile:hover {
+  transform: scale(1.05);
+}
+
+.newAlertForm {
+
+  background-color: black;
+  color:azure;
+  width:400px;
+  height:300px;
+  z-index: 1;
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  outline: azure solid thick;
+  text-align: left;
+  padding-left: 25px;
+
+}
+
+nav a {
+  display: inline-block;
+  margin: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: firebrick;
+  border-bottom: 2px solid firebrick;
+  transition: 0.1s;
+}
+
+nav a:hover,
+nav a:active {
+  color: tomato;
+  border-bottom: 2px solid tomato;
+}
+
 
 .App-logo {
   height: 40vmin;
